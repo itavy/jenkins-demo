@@ -1,0 +1,5 @@
+---
+logger: false
+mongoURI: mongodb://jenkins:jenkinsPassw0rd@localhost
+mongoDB: jenkinsdb
+redis_uri:

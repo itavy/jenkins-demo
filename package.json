@@ -76,7 +76,13 @@
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
     "pre-commit": "^1.2.2",
-    "semver": "^6.2.0",
     "tap": "^14.3.1"
+  },
+  "dependencies": {
+    "fastify": "^2.6.0",
+    "js-yaml": "^3.13.1",
+    "mongodb": "^3.2.7",
+    "redis": "^2.8.0",
+    "semver": "^6.2.0"
   }
 }

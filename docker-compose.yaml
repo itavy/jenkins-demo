@@ -1,0 +1,20 @@
+---
+version: '3.7'
+services:
+  mongo:
+    image: mongo:4.0.10-xenial
+    command: --smallfiles
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: jenkins
+      MONGO_INITDB_ROOT_PASSWORD: jenkinsPassw0rd
+      MONGO_INITDB_DATABASE: jenkinsdb
+    volumes:
+      - ./test/mongo.js:/docker-entrypoint-initdb.d/mongo.js
+    ports:
+      - target: 27017
+        published: 27017
+        protocol: tcp
+        mode: host
+  redis:
+    image: redis:5.0.5-alpine3.10
+
