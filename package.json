@@ -73,7 +73,7 @@
     "jaguarjs-jsdoc": "^1.1.0",
     "jsdoc": "^3.6.2",
     "jsdoc-to-markdown": "^5.0.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.1",
     "pre-commit": "^1.2.2",
     "semver": "^6.2.0",
